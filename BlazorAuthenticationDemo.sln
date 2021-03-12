@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuthenticationDemo.Server", "BlazorAuthenticationDemo\Server\BlazorAuthenticationDemo.Server.csproj", "{E70B66FE-D90E-407F-949F-49A449C184B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAuthenticationDemo.Server", "BlazorAuthenticationDemo\Server\BlazorAuthenticationDemo.Server.csproj", "{E70B66FE-D90E-407F-949F-49A449C184B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuthenticationDemo.Client", "BlazorAuthenticationDemo\Client\BlazorAuthenticationDemo.Client.csproj", "{EF04C889-3EC4-4AD5-AFEE-528D14C0DC16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAuthenticationDemo.Client", "BlazorAuthenticationDemo\Client\BlazorAuthenticationDemo.Client.csproj", "{EF04C889-3EC4-4AD5-AFEE-528D14C0DC16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuthenticationDemo.Shared", "BlazorAuthenticationDemo\Shared\BlazorAuthenticationDemo.Shared.csproj", "{2EBCA65F-A629-4A70-8835-EB9226BC72E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAuthenticationDemo.Shared", "BlazorAuthenticationDemo\Shared\BlazorAuthenticationDemo.Shared.csproj", "{2EBCA65F-A629-4A70-8835-EB9226BC72E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marvin.IDP", "..\..\..\Downloads\securing-blazor-client-side-applications\03\demos\start\Marvin.IDP\Marvin.IDP.csproj", "{A7B895BD-64AC-4E15-A69D-FEF15F40548A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{2EBCA65F-A629-4A70-8835-EB9226BC72E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EBCA65F-A629-4A70-8835-EB9226BC72E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EBCA65F-A629-4A70-8835-EB9226BC72E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7B895BD-64AC-4E15-A69D-FEF15F40548A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B895BD-64AC-4E15-A69D-FEF15F40548A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7B895BD-64AC-4E15-A69D-FEF15F40548A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B895BD-64AC-4E15-A69D-FEF15F40548A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
